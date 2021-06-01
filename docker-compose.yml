@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  apptimezone:
+    container_name: "timezone"
+    image: apptimezone
+    ports:
+      - "3001:3001"
